@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS llx_driver_result (
+	rowid INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	fk_driver INT(11) NOT NULL,
+	fk_track INT(11) NOT NULL,
+	result INT(11) NOT NULL
+) ENGINE=InnoDB
